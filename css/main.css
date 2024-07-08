@@ -1,0 +1,102 @@
+/* *********hero-section******** */
+.hero-section{
+  background-image: linear-gradient(rgba(214, 46, 51, 0.6),rgba(214, 46, 51, 0.6)),url(../imgs/events-heavenly-header.jpg);
+  background-size: cover;
+}
+/* *********accordion-section******** */
+.accordion-singers,.party-time{
+  margin: 100px 0;
+}
+.singer{
+  cursor: pointer;
+  padding: 8px;
+}
+.singer-text{
+  display: none;
+  padding: 10px;
+}
+h2{
+  background-color: #e68184;
+}
+.accordion-singers h2,p{
+  margin: 0;
+}
+.accordion-singers p{
+  background-color: #CCCCCC;
+}
+/* *********party-time-section******** */
+.party-time{
+  background-image: linear-gradient(rgba(214, 46, 51, 0.6),rgba(214, 46, 51, 0.6)),url(../imgs/invitation-2508607__340.jpg);
+  background-size: cover;
+  padding: 100px 0;
+}
+.time{
+  height: 150px;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.accordion-singers{
+  width: 50%;
+}
+@media (max-width:768px){
+  .accordion-singers{
+    width: 75%;
+  }
+}
+/* *********fotter-section******** */
+.footer{
+  padding:100px 0;
+  color: gray;
+}
+.social{
+  width: 40px;
+  height: 40px;
+  border: 1px solid gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.3s all;
+}
+.social:hover{
+  background-color: #d4282e;
+  border-color: #d4282e;
+}
+.social:hover  i{
+color: #fff;
+}
+/* *********layer-nav*********/
+.layer-nav{
+  position: fixed;
+  padding: 0px 80px 0 40px;
+  left: -100%;
+  top: 0;
+  bottom: 0;
+  z-index: 9999;
+  background-color: #111;
+}
+a{
+  text-decoration: none;
+  color: white;
+  transition: 0.4s all;
+}
+.close{
+  right: 20px;
+  cursor: pointer;
+  transition: 0.4s all;
+  color: #fff;
+}
+a:hover,.layer-nav i:hover{
+  color: #d4282e;
+}
+.open{
+  left: 100%;
+  top: 50%;
+  cursor: pointer;
+  transition: 0.4s all;
+  color: #fff;
+}
+
+
